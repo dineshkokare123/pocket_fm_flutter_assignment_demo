@@ -15,7 +15,7 @@ A small mobile interface prototype built with **Flutter** to simulate a basic on
 
 The compiled Android application can be downloaded and installed directly.
 
-### [Download Shopsy APK (app-release.apk)](YOUR_GITHUB_RELEASE_DOWNLOAD_URL_HERE)
+### https://github.com/dineshkokare123/pocket_fm_flutter_assignment_demo/releases/tag/v1.0.0
 
 > **Note:** To generate this link, you must first run `flutter build apk --release`, and then upload the resulting `app-release.apk` file (found in `build/app/outputs/flutter-apk/`) to a **GitHub Release** in this repository.
 ## 🛠️ Local Setup
