@@ -1,16 +1,21 @@
 # pocket_fm_flutter_assignment
 
-A new Flutter project.
+# 🛒 Shopsy - Product Listing & Cart Prototype
 
-## Getting Started
+This is a prototype mobile application built with Flutter.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📲 Download the App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+You can download and install the compiled Android application directly using the link below:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### [Download Shopsy APK (v1.0.0)](YOUR_GITHUB_RELEASE_DOWNLOAD_URL_HERE)
+
+*(Make sure to replace `YOUR_GITHUB_RELEASE_DOWNLOAD_URL_HERE` with the actual link you copied from the GitHub Release.)*
+
+---
+
+## 🚀 Setup & Run
+
+... (your standard instructions on cloning and running the Flutter code)
