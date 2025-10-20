@@ -29,7 +29,7 @@ The compiled Android application can be downloaded and installed directly.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [Your Repository URL]
+    git clone https://github.com/dineshkokare123/pocket_fm_flutter_assignment_demo
     cd shopsy_store
     ```
 2.  **Install dependencies:**
