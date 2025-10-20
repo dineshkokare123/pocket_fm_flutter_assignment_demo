@@ -1,21 +1,53 @@
 # pocket_fm_flutter_assignment
 
-# 🛒 Shopsy - Product Listing & Cart Prototype
+# 🛒 Shopsy - E-commerce Prototype
 
-This is a prototype mobile application built with Flutter.
+A small mobile interface prototype built with **Flutter** to simulate a basic online store flow, focusing on state management and navigation.
 
----
+## ✨ Key Features
 
-## 📲 Download the App
+- **Product Listing:** Displayed mock products from a local data file.
+- **Product Details:** Dedicated screen for viewing product information.
+- **Shared Cart State:** Uses the `provider` package to manage the cart state, including item quantity and total price.
+- **Cart Operations:** Allows users to add items, view the total, and remove items.
 
-You can download and install the compiled Android application directly using the link below:
+  ## 📲 Download & Installation
 
-### [Download Shopsy APK (v1.0.0)](YOUR_GITHUB_RELEASE_DOWNLOAD_URL_HERE)
+The compiled Android application can be downloaded and installed directly.
 
-*(Make sure to replace `YOUR_GITHUB_RELEASE_DOWNLOAD_URL_HERE` with the actual link you copied from the GitHub Release.)*
+### [Download Shopsy APK (app-release.apk)](YOUR_GITHUB_RELEASE_DOWNLOAD_URL_HERE)
 
----
+> **Note:** To generate this link, you must first run `flutter build apk --release`, and then upload the resulting `app-release.apk` file (found in `build/app/outputs/flutter-apk/`) to a **GitHub Release** in this repository.
+## 🛠️ Local Setup
 
-## 🚀 Setup & Run
+### Prerequisites
 
-... (your standard instructions on cloning and running the Flutter code)
+* **Flutter SDK** installed and configured.
+* An Android/iOS emulator or a physical device.
+
+### Steps
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [Your Repository URL]
+    cd shopsy_store
+    ```
+2.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+3.  **Run the app:**
+    ```bash
+    flutter run
+    ```
+
+    ## 🎯 Evaluation Focus
+
+The prototype successfully demonstrates:
+
+| Requirement | Implementation Detail |
+| :--- | :--- |
+| **List Rendering** | `ListView.builder` in `ProductListScreen`. |
+| **Shared State** | Implemented using the **`Provider`** package (`CartProvider`). |
+| **Navigation Flow** | `Navigator.push` used for navigating between List, Detail, and Cart screens. |
+| **Mock Data** | Products defined in a local Dart list (simulating a JSON source). |
