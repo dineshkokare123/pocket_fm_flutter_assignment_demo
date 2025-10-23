@@ -41,5 +41,12 @@ final List<Product> mockProducts = [
     price: 29.50,
     imageUrl: 'https://images.unsplash.com/photo-1594931302824-3f13a3b04c53',
   ),
+  Product(
+    id: 'p3',
+    name: 'Leather Shoes',
+    description: 'Genuine leather Shoes.',
+    price: 19.50,
+    imageUrl: 'https://images.unsplash.com/photo-1594931302824-3f13a3b04c53',
+  ),
   // Add more products here...
 ];
